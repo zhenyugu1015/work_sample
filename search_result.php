@@ -70,7 +70,7 @@
 
 				<?php
 				while ( $row = $result->fetch_assoc() ){
-					?>
+				?>
 					<div class="column" style="vertical-align:middle; text-align:center">
 						<a href="<?php echo $row['link']?>">
 							<table id="corners" style="width:250px">
@@ -93,7 +93,7 @@
 				<?php
 				}
 				$result->free();
-			}else{?>
+			}else{	?>
 				<center>
 					<h1>
 						<span id="corners" style="background-color: rgba(255,255,255,0.75)">
@@ -119,11 +119,10 @@
 					</table>
 				<br><br><br><br><br><br><br><br><br>
 				</center>
-				<?php
+			<?php
 			}
-
 			?>
 		</html>
-</div>
+	</div>
 
 <?php get_footer(); ?>
