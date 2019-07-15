@@ -1,6 +1,6 @@
 /*
  contains my previous web development work using PHP, SQL, HTML, CSS
- prints restaurant image and name according to search input
+ prints restaurants' images and names according to search input
 */
 
 <html>
