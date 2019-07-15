@@ -2,7 +2,7 @@
  contains my previous web development work using PHP, SQL, HTML, CSS
  prints restaurants' images and names according to search input
 */
-
+ 
 <html>
     <style>
         .column {
